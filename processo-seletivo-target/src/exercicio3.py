@@ -1,6 +1,6 @@
 import json
-faturamento = list
-faturamento = [
+data_JSON = [
+
 	{
 		"dia": 1,
 		"valor": 22174.1664
@@ -123,4 +123,3 @@ faturamento = [
 	}
 ]
 
-print(json.dumps(faturamento(0)))

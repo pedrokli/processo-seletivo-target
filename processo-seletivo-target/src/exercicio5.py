@@ -1,7 +1,7 @@
 
 
 def pede_palavra():
-    palavra = input("Qual a palavra?")
+    palavra = input("Qual a palavra? ")
     quantidade_de_letras = len(palavra)
 
     palavra_invertida = []
@@ -11,6 +11,7 @@ def pede_palavra():
         palavra_invertida += palavra[quantidade_de_letras - 1]
         quantidade_de_letras = quantidade_de_letras - 1
 
-    print("A palavra invertida é: ", palavra_invertida)
+    palavra_invertida = "".join(palavra_invertida)
+    return palavra_invertida
 
-pede_palavra()
+print("A palavra invertida é " + pede_palavra())
